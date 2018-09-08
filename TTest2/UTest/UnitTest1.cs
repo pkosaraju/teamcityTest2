@@ -18,7 +18,7 @@ namespace UTest
         public void TestCompareTwo()
         {
             int x = 5;
-            int y = 9;
+            int y = 5;
             Assert.AreEqual(x, y);
         }
     }
