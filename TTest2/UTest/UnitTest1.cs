@@ -21,5 +21,14 @@ namespace UTest
             int y = 5;
             Assert.AreEqual(x, y);
         }
+
+        [Test]
+        public void TestCompareThree()
+        {
+            bool x = true;
+            bool y = false;
+            Assert.AreEqual(x, y);
+        }
+
     }
 }
